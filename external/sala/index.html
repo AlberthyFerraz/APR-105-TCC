@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>&lt;model-viewer&gt; template</title>
+    <meta charset="utf-8">
+    <meta name="description" content="&lt;model-viewer&gt; template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" href="./styles.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <header>
+      <h1 class="senai-title" >APR-105</h1>
+      
+      <h2 class="senai-title">Sala Confinada </h2> 
+      </h1>
+    </header>
+     <!-- haburguer -->
+     <div class="menu-container">
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="question-button">🢃</label>
+        <button class="floating-button" onclick="abrirPaginaExterna()">
+           ⤧
+        </button>
+        <div class="menu-overlay">
+            <div class="menu-content">
+                <div class="menu-header">
+                    <label for="menu-toggle" class="close-btn">&times;</label>
+                    <h2>Sala Confinada</h2>
+                </div>
+                <div class="menu-body">
+                    <p>Pré-visualização de uma sala confinada, exibição para mantenção .</p>
+                    <p><strong>Tecnologias utilizadas:</strong> HTML5, CSS3, JavaScript</p>
+                    <p><strong>Duvidas? entre em contato com:</strong> supervisão </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <model-viewer> HTML element -->
+    <model-viewer src="27_10_2025.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1">
+      <div class="progress-bar hide" slot="progress-bar">
+          <div class="update-bar"></div>
+      </div>
+      <button slot="ar-button" id="ar-button">
+          View in your space
+      </button>
+      <div id="ar-prompt">
+          <img src="ar_hand_prompt.png">
+      </div>
+    </model-viewer>  
+    <script src="script.js"></script>
+    <!-- Loads <model-viewer> for browsers: -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+  </body>
+</html>

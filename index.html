@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <title>TCC APR 105 - SENAI</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" href="./styles.css" rel="stylesheet"/>
+    <link rel="icon" type="image/png" href="./imagens/education.png">
+     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  </head>
+  <body>
+
+  <!-- Navbar personalizada --> 
+    <nav class="portfolio-navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <div class="logo">APR</div>
+                <div class="site-name">105</div>
+            </div>
+            
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#equipe">Equipe</a></li>
+                <li><a href="#vitrine">Projeto</a></li>
+            </ul>
+            
+          <button class="contact-btn" onclick="scrollToContact()">Contato</button>
+        </div>
+    </nav>
+
+    <!-- Menu Lateral Direito  -->
+    <div class="side-menu-container">
+        <button class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </button>
+    </div>
+
+    <div class="side-menu">
+        <button class="close-menu">
+            <i class="fas fa-times"></i>
+        </button>
+        
+        <div class="menu-header">
+            <h3>Menu de Navegação</h3>
+            <p>Acesso rápido e intuitivo</p>
+        </div>
+
+        <div class="menu-items">
+            <a href="#home" class="menu-item">
+                <i class="fas fa-home"></i>
+                <span>Início</span>
+            </a>
+            
+            <a href="#sobre" class="menu-item">
+                <i class="fas fa-info-circle"></i>
+                <span>Sobre Nós</span>
+            </a>
+            
+            <a href="#vitrine" class="menu-item">
+                <i class="fas fa-images"></i>
+                <span>Projeto</span>
+            </a>
+            
+            <a href="#equipe" class="menu-item">
+                <i class="fas fa-users"></i>
+                <span>Nossa Equipe</span>
+            </a>
+
+            <div class="menu-divider"></div>
+
+            <a href="mailto:contato@vitrinetecnica.com" class="menu-item">
+                <i class="fas fa-envelope"></i>
+                <span>Contato</span>
+            </a>
+            
+            <div class="menu-divider"></div>
+
+            <a href="#" class="menu-item">
+                <i class="fas fa-question-circle"></i>
+                <span>Ajuda & Suporte</span>
+            </a>
+        </div>
+
+        <div class="social-menu">
+            <a href="">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+    </div>
+
+    <div class="menu-overlay"></div>
+
+    <!-- apresentação do site -->
+    <section class="home" id="home">
+        
+        <div class="home-content">
+            <div class="home-text">
+                <h3>Bem-vindo ao TCC da APR-105</h3>
+                <h1>Conheça a<span> solução</span> com inovação</h1>
+                <h3><span>Projeto técnicos que transforma as  ideias em realidade</span></h3>
+                <p>O intuito do site no TCC para o SENAI é ser uma plataforma dedicada a exibir a virtualização do ambiente da problemática, 
+                    conectando as inovações da industria 4.0 com um projeto físico. Descubra nossa soluções inovadora
+                    para moldar o futuro da tecnologia e da indústria.</p>
+                
+                <a href="#vitrine" class="btn">Explorar Nosso Projeto</a>
+            </div>
+            
+            
+            <div class="home-img">
+                <img src="imagens/sala-motor.png" alt="Ilustração de inovação">
+            </div>
+        </div>
+    </section> 
+     <!-- Projetos e-->
+    <section class="projects-showcase" id="vitrine">
+        
+        <div class="vitrine-header">
+            
+            <h1>Virtualização do projeto em <span>3D</span></h1>
+            <p>Ambiente e nosso projeto do TCC</p>
+            
+        </div>
+        
+        <div class="projects-grid">
+            <div class="centered-content">
+                
+        
+                <iframe src="external/silo_prototipo/index.html" class="large-iframe"
+                title="Conteúdo Centralizado"></iframe>
+            </div>
+            <div class="centered-content">
+                
+                <iframe src="external/sala/index.html" class="large-iframe"
+                title="Conteúdo Centralizado"></iframe>
+            </div>
+            <div class="centered-content">
+                
+                <iframe src="external/silo/silo.html" class="large-iframe"
+                title="Conteúdo Centralizado"></iframe>
+            </div>
+            
+            
+    </section>    
+    <!--objetivo do site-->
+    <section class="about" id="sobre">
+        <div class="about-img">
+            <img src="imagens/robô.png" alt="Vitrine Técnica SENAI">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">Objetivo do <span>Site</span></h2>
+            <h3>para o Trabalho de Conclusão de Curso do Senai</h3>
+            <p>Somos uma equipe dedicada a promover inovacao no TCC do curso técnico, conectando alunos criativos 
+                com oportunidades reais no mercado. Nossa missão é fornecer um espaço onde projetos inovadores 
+                possam ser visualizados e valorizados, ajudando estudantes a mostrarem seu potencial para 
+                empresas e organizações. Ao longo de nossa jornada, reconhecemos a importância de criar pontes 
+                entre a educação técnica e o mercado de trabalho, promovendo um ambiente de inovação e 
+                desenvolvimento contínuo.</p>
+        </div>
+    </section>
+
+    <section class="hero" id="equipe">
+        <h1>Conheça a <span>Equipe</span></h1>
+        <p>Onde a prática encontra a inovação.</p>
+    </section>
+    
+    <div class="team-container">
+        <div class="team-grid">
+
+            <div class="team-card">
+                <img src="imagens/profesor.jpg" alt="Professor" class="member-photo"></img>
+                <h2 class="member-name">Professor</h2>
+                <p class="member-role">Orientador</p>
+                <p class="member-skills">Engenharia</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            
+            <div class="team-card">
+                <img src="imagens/albt.jpg" alt="Alberthy Ferraz" class="member-photo">
+                <h2 class="member-name">Alberthy Ferraz</h2>
+                <p class="member-role">TI - Web developer</p>
+                <p class="member-skills">Técnico em Eletromecânica</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            
+            <div class="team-card">
+                <img src="imagens/bianca.jpg" alt="Bianca Moreno" class="member-photo">
+                <h2 class="member-name">Maycon Douglas</h2>
+                <p class="member-role">Colaborador</p>
+                <p class="member-skills">Técnico em Eletromecânica</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            
+            <div class="team-card">
+                <img src="imagens/renan.jpg" alt="Felipe" class="member-photo">
+                <h2 class="member-name">Felipe Sousa</h2>
+                <p class="member-role">Colaborador</p>
+                <p class="member-skills">Técnico em Eletromecânica</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            
+            <div class="team-card">
+                <img src="imagens/nycolle.jpg" alt="Lara Vasconcelos" class="member-photo">
+                <h2 class="member-name">Lara Vasconcelos</h2>
+                <p class="member-role">Colaboradora</p>
+                <p class="member-skills">Técnica em Eletromecânica</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            
+            <div class="team-card">
+                <img src="imagens/samyle.jpg" alt="Ana Clara" class="member-photo">
+                <h2 class="member-name">Ana Clara</h2>
+                <p class="member-role">Colaboradora</p>
+                <p class="member-skills">Técnica em Eletromecânica</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Pop-up de Detalhes do Projeto -->
+    <div id="contentPopup" class="popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+            
+            <div class="popup-header">
+                
+            </div>
+            
+            <div class="popup-body">
+                <div id="project-content" class="content active">
+                    <iframe src="external/dashboard.html" class="external-iframe" 
+                    title="Conteúdo Externo 2"></iframe>
+                </div>
+                
+                <div id="text-content" class="content">
+                    <div class="text-content">
+                        <p id="itemDescription">Dashboard Analytics é uma solução completa para visualização e análise de dados em tempo real. Desenvolvido com React no frontend e Node.js no backend, oferece relatórios personalizáveis, gráficos interativos e painéis configuráveis. O projeto inclui integração com múltiplas fontes de dados, atualizações em tempo real e exportação de relatórios em diversos formatos.</p>
+                    </div>
+                </div>
+                <div id="project-content" class="content">
+                    <div class="project-loading">
+                    
+            </div>
+        </div>
+            </div>
+            <!-- Estrutura do Popup -->
+             
+    <div class="popup-overlay" id="popupOverlay">
+        <div class="popup-content2" id="popupContent">
+            <div class="popup-header" id="popupHeader">
+                <h2 class="popup-title">Demo do Projeto</h2>
+                <button class="close-btn" id="closePopup">&times;</button>
+            </div>
+            <div class="popup-body2">
+                <!-- O conteúdo externo será carregado aqui -->
+                <iframe class="popup-iframe" id="popupIframe" src="about:blank"></iframe>
+            </div>
+            <div class="resize-handle"></div>
+        </div>
+    </div>
+            
+        </div>  
+    </div>
+
+     <!-- Seção de Contato -->
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <h2 class="contact-heading">Entre em <span>Contato</span></h2>
+            <p class="contact-subtitle">O que achou do projeto ? Avalie a nossa ideia e sua criatividade.</p>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Nossas Informações</h3>
+                
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>alberthy.oliveira@aluno.senai.br</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h3>Envie uma Mensagem</h3>
+                    
+                    <form action="https://formsubmit.co/seu-email@provedor.com" method="POST">
+                        <div class="form-row">
+                            <input type="text" name="name" placeholder="Nome completo" required>
+                            <input type="email" name="email" placeholder="Seu melhor email" required>
+                        </div>
+                        
+                        <div class="form-row">
+                            <input type="tel" name="phone" placeholder="Telefone para contato">
+                            <input type="text" name="subject" placeholder="Assunto da mensagem" required>
+                        </div>
+                        
+                        <textarea name="message" rows="5" placeholder="Conte-nos sobre seu projeto..." required></textarea>
+                        
+                        <button type="submit" class="submit-btn">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!--FOOTERR-->
+   <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Equipe APR-105</h3>
+                <p>Transformando ideias em soluções digitais inovadoras.</p>
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/the.horizon.ofc/"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Links Rápidos</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#equipe">Equipe</a></li>
+                    <li><a href="#vitrine">Projeto</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Contato</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Endereço da equipe</p>
+                <p><i class="fas fa-envelope"></i>alberthy.oliveira@aluno.senai.br</p>
+            </div>
+        </div>
+        
+            <div class="footer-bottom">
+                <p>&copy; 2025 APR-105 Técnica. Todos os direitos reservados.</p>
+            </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
